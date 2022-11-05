@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootsrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>Namoz vaqtlari</title>
+  </head>
+  <body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center my-5">Namoz vaqtlari</h1>
+                    </div>
+                    <div class="col-6 mb-5">
+                        <h3 class="text-end">Hududni tanlang:</h3>
+                    </div>
+                    <div class="col-6 mb-5">
+                        <select id="region" class="form-select w-50">
+                            <option disabled selected>Viloyatni tanlang</option>
+                        </select>
+                    </div>
+                    <div class="col-6 mb-5">
+                        <h3>
+                            Mintaqa: <span class="text-success" id="city"></span>
+                        </h3>
+                    </div>
+                    <div class="col-6 mb-5">
+                        <h3>
+                            <span class="text-success" id="sana">
+        
+                            </span>
+                            <span class="text-success p-3 bg-white" id="hour">
+        
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="card-wrapper d-flex gap-2 justify-content-berween">
+                        <div class="card text-center">
+                            <h2 class="card-title text-success">
+                                Tong
+                            </h2>
+                            <img src="./img/sunrise (1) 2.svg" alt="sun" class="card-img">
+                            <div class="card-time">
+                                04:58
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <h2 class="card-title text-success">
+                                Quyosh
+                            </h2>
+                            <img src="./img/sunrise 1.svg" alt="sun" class="card-img">
+                            <div class="card-time">
+                                04:58
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <h2 class="card-title text-success">
+                                Peshin
+                            </h2>
+                            <img src="./img/sun 1.svg" alt="sun" class="card-img">
+                            <div class="card-time">
+                                04:58
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <h2 class="card-title text-success">
+                                Asr
+                            </h2>
+                            <img src="./img/sunrise (1) 1.svg" alt="sun" class="card-img">
+                            <div class="card-time">
+                                04:58
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <h2 class="card-title text-success">
+                                Shom
+                            </h2>
+                            <img src="./img/isha-prayer 1.svg" alt="sun" class="card-img">
+                            <div class="card-time">
+                                04:58
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <h2 class="card-title text-success">
+                                Hufton
+                            </h2>
+                            <img src="./img/moon 1.svg" alt="sun" class="card-img">
+                            <div class="card-time">
+                                04:58
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <div class="row mt-5">
+                    <table class="table table-striped table-hover table-oq teble-bordered">
+                        <thead>
+                            <tr><th>Mintaqa</th><th>Sana</th><th>Kun</th><th>Tong</th><th>Quyosh</th><th>Peshin</th><th>Asr</th><th>Shom</th><th>Hufton</th></tr>
+                        </thead>
+                        <tbody id="tbody">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+  </body>
+  <script src="./regions.js"></script>
+  <script src="./plugin.js"></script>
+  <script src="./app.js"></script>
+</html>

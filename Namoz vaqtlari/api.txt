@@ -1,0 +1,9 @@
+API so'rovlar:
+
+Bugungi namoz vaqtlarini olish: https://islomapi.uz/api/present/day?region=Toshkent
+
+Shu haftaning namoz vaqtlarini olish: https://islomapi.uz/api/present/week?region=Toshkent
+
+Bir kunlik namoz vaqtlarini olish: https://islomapi.uz/api/present/daily?region=Toshkent&month=4=4&day=5
+
+Bir oylik namoz vaqtlarini olish: https://islomapi.uz/api/present/monthly?region=Toshkent&month=4
